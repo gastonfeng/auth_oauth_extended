@@ -1,4 +1,4 @@
-# auth_oauth_extended
+# auth_oauth_extended    [have merged into  odoo-cn/addons ]
 
 for qq/weixin/weibo authorization and login into Odoo
 
