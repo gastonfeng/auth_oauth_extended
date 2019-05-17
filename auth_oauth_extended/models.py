@@ -86,11 +86,11 @@ class auth_oauth_provider(models.Model):
 
     ]
 
-    provider_type = fields.Selection(provider_type, 'Provider Type', required=True)
+    provider_type = fields.Selection(provider_type, 'Provider Type', required=True,default= 'other',)
 
-    _defaults = {
-        'provider_type': 'other',
-    }
+#    _defaults = {
+#        'provider_type': 'other',
+#    }
 
 
 class res_users(models.Model):
